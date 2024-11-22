@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VivaDecore</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/jQuery.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="container-fluid p-0">
+            <nav class="navbar navbar-expand-sm bg-white navbar-dark">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/Logo.png" alt=" Logo" style="width:100px;"> 
+                    </a>
+                    <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class=" collapse navbar-collapse dropdown justify-content-end" id="collapsibleNavbar">
+                       <ul class="nav">
+                            <li class="nav-item"><a class="nav-link text-dark" href="#">home </a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="#">services </a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="#">contact </a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="#">supports </a></li>
+                       </ul>
+                    </div>
+                    <div class=" collapse navbar-collapse dropdown justify-content-end" id="collapsibleNavbar">
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#myModal">sign up</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+          
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h4 class="modal-title">sign up</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
+                </div>
+          
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="/action_page.php">
+                        <div class="form-group mb-3 mt-3">
+                            <label for="email" class="form-label">Email Adress</label>
+                            <input type="email" class="form-control bord" id="Email" placeholder="Enter Your Email" name="email" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">we 'll never share your email with anyone else</div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="txt">Enter Your User Name</label>
+                            <input type="text" class="form-control bord" id="txt" placeholder="Enter User Name" name="txt" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control bord" id="pwd" placeholder="Enter password" name="pswd" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please fill out this field.</div>
+                        </div>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="switch1">
+                            <label class="custom-control-label" for="switch1">remember me</label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-dark mt-2 ">submit</button>
+                    </form>
+                </div>
+          
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+          <!-- //////////////////////////////////////////////////////////////////////// -->
+        <main class="container mt-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="hh">interior design</h2>
+                    <p class="p2">step into a warld where the art of interior design is meticulously crafted to bring to gether timeless elegance and cutting-edge modern innovation, allowing you to transform your living spaces into the epitome of luxury and sophistication</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/Image 1.png" alt="" style="height:250px ;width: 100%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <button type="button" class="btn btn-dark" style="margin-top:50px ;" >start project</button>
+                    <div class="content2 d-flex flex-wrap" style="margin-top: 20px;"> 
+                        <div class="left flex-fill col-md-4 col-sm-10 ">
+                            <p style="font-size:35px;">400+</p>
+                            <span>project complete</span>
+                        </div>
+                        <div class="center flex-fill col-md-4 col-sm-10 ">
+                            <p style="font-size:35px;">600+</p>
+                            <span>satisfied clients</span>
+                        </div>
+                        <div class="right flex-fill col-md-4 col-sm-10 ">
+                            <p style="font-size:35px;">100+</p>
+                            <span>unique styles</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-7 img-down">
+                    <img src="images/Image 2.png" alt="" style="height:350px ;width: 92%;">
+                    <div class="arrow-down">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                    <div class="image-box"></div>
+                </div>
+            </div>
+        </main>
+        <!-- ///////////////////////////////////////////////////////// -->
+        <section class="container container2">
+            <div class="line"></div>
+            <h2 class="section-header">our services</h2>
+            <div class="section-grid d-flex flex-wrap ">
+                <div class="section-card flex-fill col-md-4 col-sm-10 p-4">
+                    <span><i class="far fa-lightbulb"></i></span>
+                    <div class="section-content">
+                        <h4>lighting design</h4>
+                        <p>achieve the perfect balance of ambient, task and accent lighting for a functional atmosphere</p>
+                    </div>   
+                </div>
+                <div class="section-card flex-fill col-md-4 col-sm-10 p-4">
+                    <span><i class="fas fa-couch"></i></span>
+                    <div class="section-content">
+                        <h4>interior design</h4>
+                        <p>from concept to complete, we oversee every detail to bring your vision to life efficiently</p>
+                    </div>
+                </div>
+                <div class="section-card flex-fill col-md-4 col-sm-10 p-4">
+                    <span><i class="fas fa-tree"></i></span>
+                    <div class="section-content">
+                        <h4>outdoor design</h4>
+                        <p>celebrate the changing seasons with our seasonal outdoor decor services</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /////////////////////////////////////////////////////////////////////////// -->
+        <section class="container container3">
+            <div class="row row1">
+                <div class="content-left col-md-6">
+                    <img src="images/Mask group.png" alt="image" style="width: 100%; height: 450px;">
+                </div>
+                <div class="content-right col-md-6">
+                    <h2 class="section-header">designing your dream with brilliance</h2>
+                    <p> elevate your spaces with bespoke interior designs that reflect your unique style and aspireation, crafted with precision and brilliance for unforgettable living experience</p>
+                    <div class="ccc row ">
+                    <span class="col-md-11 col-10">living room interior design</span>
+                    <span class="span2 col-md-1  col-2">+</span>
+                    </div>
+                    <hr>
+                    <div class="ccc row">
+                    <span class="col-md-11 col-10">commercial office room interior design</span>
+                    <span class="span2 col-md-1 col-2">+</span>
+                    </div>
+                    <hr>
+                    <button type="button" class="btn btn-dark" style="margin-top:30px ;" >learn more</button>
+                </div>
+            </div>
+        </section>
+        <!-- //////////////////////////////////////////////////////////////////////////////// -->
+        <section class="container container4">
+            <div class="row">
+                <div class="content-left col-md-6">
+                    <h2 class="section-header">designing your dream in three simple steps</h2>
+                    <div class="content4-grid">
+                        <div class="icon bg-dark text-white"><i class="fas fa-rocket"></i></div>
+                        <h4>start project</h4>
+                        <span></span>
+                        <p>embark on your design adventure by initiating your project. share your vision and set the stage for a bespoke design experience</p>
+                    </div>
+                    <div class="content4-grid">
+                        <div class="icon bg-dark text-white"><i class="far fa-lightbulb"></i></div>
+                        <h4>craft</h4>
+                        <span></span>
+                        <p>collaborate closely to acheive design excellence refining your vision and crafting brilliance into every aspect of your space </p>
+                    </div>
+                    <div class="content4-grid">
+                        <div class="icon bg-dark text-white"><i class="far fa-check-circle"></i></div>
+                        <h4>execute</h4>
+                        <span class="last-child"></span>
+                        <p>withness your vision becoming a reality as we execute the design plan with precision. celebrate the joy of your newly transformed space</p>
+                    </div>
+                </div>
+                <div class="content-right col-md-6">
+                    <img src="images/Image.png" alt="image" style="height: 600px; width: 100%;">
+                </div>
+                </div>
+        </section>
+        <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+        <section class="container container5">
+            <div class="ggg">
+            <div class="row content5">
+                <div class="content-left col-md-6">
+                    <img src="images/Mask group (1).png" alt="image" style="height: 500px; width: 100%;">
+                    <div class="content-icon">
+                        <button><i class="fas fa-arrow-left text-dark"></i></button>
+                        <button><i class="fas fa-arrow-right text-dark"></i></button>
+                    </div>
+                </div>
+                <div class="content-right col-md-6">
+                    <h2 class="section-header">what our customers say about us </h2>
+                </div>
+            </div>
+            <div class="content-grid row" style="gap: 30px;height: 310px;">
+                <div class="content-card col-md-5 bg-dark text-white">
+                    <span><i class="fa fa-quote-left p-3" style="font-size: 50px;"></i></span>
+                    <p>working with your design team was an absolute pleasure. the attention to detail and creativity exceeded my expectations.thank you for making my home beautiful</p>
+                    <div class="contents d-flex">
+                        <span><img src="images/Mask group (2).png" alt="user"></span>
+                        <div class="details">
+                            <h4>sophie carter</h4>
+                            <p>new york, USA</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-card col-md-5 bg-dark text-white">
+                    <span><i class="fa fa-quote-left p-3" style="font-size: 50px;"></i></span>
+                    <p>exceptional service! from the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design.highly recommend!</p>
+                    <div class="contents d-flex">
+                        <span><img src="images/Mask group (2).png" alt="user"></span>
+                        <div class="details">
+                            <h4>james bennett</h4>
+                            <p>toronto,Canada</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+        <section class="container container6">
+            <div class="content6 col-md-5" >
+                <h2 class="section-header">subscribe to our newsletter for design insights</h2>
+                <p>be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>
+                <form >
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                        <input type="text" class="form-control" placeholder="enter your email address">
+                        <button class="btn btn-dark" type="submit">subscribe </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- /////////////////////////////////////////////////////////////////////////////////// -->
+         <footer class="container-fluid bg-dark text-white">
+            <div class="container row" style="justify-content: end;">
+                <div class="one col-md-3">
+                    <img src="images/Logo.png" alt="image" style="background-color: aliceblue;">
+                    <p>VivaDecore your premier destination for luxury and modern interior design</p>
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin"></a>
+                    </div>
+                </div>
+                <div class="two col-md-3">
+                    <h2>our services</h2>
+                    <p>interior design</p>
+                    <p>outdoor design</p>
+                    <p>lighting design</p>
+                    <p>office design</p>
+                </div>
+                <div class="there col-md-3">
+                    <h2>our services</h2>
+                    <p>reviews</p>
+                    <p>careers</p>
+                    <p>pricing</p>
+                    <p>press inquires</p>
+                </div>
+                <div class="four col-md-2">
+                    <h2>our services</h2>
+                    <p>info@vivadecore.come</p>
+                    <p>design avenue cityville,CA 90210 united states</p>
+                </div>
+            </div>
+         </footer>
+
+         
+
+
+
+
+        
+       
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/tem3.js"></script>
+        </body>
+</html>
